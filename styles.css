@@ -1,0 +1,65 @@
+body
+{
+font-family: georgia, serif;
+font-size: Small;
+line-height: 1.75em;
+}
+p, dl
+{
+	font-size: .875em;
+}
+h1
+{
+	font: bold 1.5em"marko One", Georgia, serif;
+	color: purple;
+	text-shadow: .1em .1em .2em lightslategray;
+}
+h2
+{
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	color: purple;
+}
+dt
+{
+	font-weight: bold;
+	color: sienna;
+}
+strong
+{
+	font-style: italic; 
+}
+dt strong
+{color: maroon;}
+#info p
+{
+	font-style: italic;
+	color: gray;
+}
+.price
+{
+	font-family: georgia, serif;
+	font-style: italic;
+	color: gray;
+}
+.label
+{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-style: normal;
+}
+p.warning, sup
+{
+	font-size: x-small;
+	color: red;
+}
+h1, h2, #info
+{
+	text-align: center;
+}
+h2 + p
+{
+	text-align: center;
+	font-style: italic;
+}
